@@ -1,0 +1,126 @@
+.gpt3__whatgpt3 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--color-footer);
+    color: white;
+    margin: 0 3rem !important;
+    justify-content: center;
+}
+
+.gpt3__whatgpt3-feature {
+    display: flex;
+    flex-direction: row !important;
+    
+}
+
+.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    margin: 1rem;
+}
+
+.gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
+    max-width: 800px;
+}
+
+.gpt3__whatgpt3-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin: 4rem 0 2rem;
+}
+
+.gpt3__whatgpt3-header h1 {
+    font-size: 34px;
+    line-height: 45px;
+    max-width: 510px;
+    
+}
+
+.gpt3__whatgpt3-header p {
+    font-family: var(--font-family2);
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: var(--color-footer);
+    border: 3px solid rgba(181, 208, 234, 0.838); 
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #7154b1, #06048e);
+   transition: 0.2s ease;
+   font-weight: 500;
+   text-align: center;
+}
+
+
+.gpt3__whatgpt3-header p:hover {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+.gpt3__whatgpt3-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .gpt3__whatgpt3 {
+        margin: 0 1rem !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .gpt3__whatgpt3 {
+        margin: 0 1rem !important;
+    }
+
+    .gpt3__whatgpt3-feature
+    .gpt3__features-container__feature {
+        flex-direction: column;
+        
+   
+    }
+    .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+        margin-top: 0.5rem;
+
+    }
+
+    .gpt3__whatgpt3-feature {
+        display: block;
+    }
+
+    .gpt3__whatgpt3-feature img {
+        margin: auto;
+        display: flex;
+        width: 300px;
+    }
+
+    .gpt3__whatgpt3-header {
+        display: block;
+    }
+    .gpt3__whatgpt3-header h1 {
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .gpt3__whatgpt3-header p {
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        
+    }
+}
+
+@media screen and (max-width: 350px){
+    .gpt3__features-container .gpt3__features-container__feature {
+        margin: 1rem 0;
+    }
+}
+

@@ -1,0 +1,17 @@
+:root {
+    --font-family1: 'Inter', sans-serif;
+    --font-family2: 'Roboto', sans-serif;
+    --font-family3: 'DM Sans', sans-serif;
+    --font-family4: 'Cookie', cursive;
+
+
+
+    --gradient-text: linear-gradient(89.97deg, #a65af7 -15.84%, #ff7049 20%);
+    --gradient-text: linear-gradient(89.97deg, #d46fff 5.86%, #fb9174 50%);
+
+    --color-bg: #040C18;
+    --color-footer: #031B34;
+    --color-blog: #031B34;
+    --color-text: #81AFDD;
+    --color-subtext: #FF8A71;
+}
